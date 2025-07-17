@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: my-eks-app
-          image: your-dockerhub-username/my-eks-app:latest  # will be updated by GitHub Actions
+          image: codersdiary/my-eks-app:latest  # will be updated by GitHub Actions
           ports:
             - containerPort: 3000
